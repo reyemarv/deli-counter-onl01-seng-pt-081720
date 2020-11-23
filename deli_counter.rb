@@ -11,3 +11,7 @@ def take_a_number(customers, name)
   customers << name
   puts "Welcome, #{name}. You are number #{customers.length} in line."
 end 
+
+def now_serving(customers)
+  
+end 
