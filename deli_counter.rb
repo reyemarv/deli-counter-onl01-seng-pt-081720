@@ -15,6 +15,6 @@ end
 def now_serving(customers)
   if customers.empty?
     puts "Currently serving #{customers[0]}." 
-    customers.shift
   end 
+    customers.shift
 end 
