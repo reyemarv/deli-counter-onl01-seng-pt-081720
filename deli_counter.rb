@@ -13,7 +13,7 @@ def take_a_number(customers, name)
 end 
 
 def now_serving(customers)
-  until customers.length == 0 
+  if customers.empty?
     puts "Currently serving #{customers[0]}." 
     customers.shift
   end 
