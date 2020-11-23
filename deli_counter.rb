@@ -7,7 +7,7 @@ def line(customers)
   end 
 end 
 
-def take_a_number(customers, name
+def take_a_number(customers, name)
   customers << name
   puts "Welcome, #{name}. You are the #{customers.length} in line."
 end 
