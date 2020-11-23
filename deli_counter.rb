@@ -13,5 +13,6 @@ def take_a_number(customers, name)
 end 
 
 def now_serving(customers)
-  
+  until customers.length == 0 
+    puts "Now serving"
 end 
