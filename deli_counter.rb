@@ -8,7 +8,6 @@ def line(customers)
 end 
 
 def take_a_number(customers, name)
-  if 
   customers << name
   puts "Welcome, #{name}. You are number #{customers.length} in line."
 end 
