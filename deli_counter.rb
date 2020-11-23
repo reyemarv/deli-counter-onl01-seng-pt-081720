@@ -15,6 +15,6 @@ end
 def now_serving(customers)
   until customers.length == 0 
     puts "Currently serving #{customers[0]}." 
-    customers.pop
+    customers.shift
   end 
 end 
